@@ -13,3 +13,4 @@ DB-SCAN is an unsupervised learning method that aims to separate the High-Densit
 References : 
 https://medium.com/@elutins/dbscan-what-is-it-when-to-use-it-how-to-use-it-8bd506293818
 
+The fascinating question is how to decide the amount of epsilon needed in this 
