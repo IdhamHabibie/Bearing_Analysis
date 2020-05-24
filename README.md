@@ -10,10 +10,12 @@ DB-SCAN is an unsupervised learning method that aims to separate the High-Densit
 - In each point in this dimensions, DBSCAN creates a circle shape based on the epsilon, which denotes the radius of the circle. This circle implies in each *n* point for each dataset.
 - DBSCAN will do this iteratively, and afterwards, the DBSCAN able to trace which dataset is lied alone and not.
 
+![Image of DB-SCAN](https://images.app.goo.gl/AfNHhWU4ZCjCpF8r8)
 References : 
 https://medium.com/@elutins/dbscan-what-is-it-when-to-use-it-how-to-use-it-8bd506293818
 
 The fascinating question is how to decide the amount of epsilon needed in this 
 
 ## Evaluation 
-To evaluate the results from the DB-SCAN, I am using the Statistical Approach to identify the anomaly detection. Based on paper as follows, the closest *mean* and *2 * standard dev*.
+To evaluate the results from the DB-SCAN, I am using the Statistical Approach to identify the anomaly detection. Based on paper as follows, the closest *mean* and *2 * standard dev*. Therefore, we able to trace the normal behaviour of the dataset with following formula : 
+                                          Mean - 2 * Std <X < Mean + 2 * Std
