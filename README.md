@@ -10,7 +10,7 @@ DB-SCAN is an unsupervised learning method that aims to separate the High-Densit
 - In each point in this dimensions, DBSCAN creates a circle shape based on the epsilon, which denotes the radius of the circle. This circle implies in each *n* point for each dataset.
 - DBSCAN will do this iteratively, and afterwards, the DBSCAN able to trace which dataset is lied alone and not.
 
-![Image of DB-SCAN](https:/IdhamHabibie/Bearing_Analysis/DBSCAN.png)
+![Image of DB-SCAN](images/DBSCAN.png)
 References : 
 https://medium.com/@elutins/dbscan-what-is-it-when-to-use-it-how-to-use-it-8bd506293818
 
