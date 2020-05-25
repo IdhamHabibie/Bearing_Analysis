@@ -16,7 +16,7 @@ References :
 https://medium.com/@elutins/dbscan-what-is-it-when-to-use-it-how-to-use-it-8bd506293818
 
 The fascinating question is how to decide the optimum number of epsilon in this method. I found a related work to this method.
-The algorithm to find the optimum number of the epsilon is calculating the distance to the closest *n* numbers, filter it, and calculate the 3 nearest distance. This algorithm is based on the following paper[References-DBSCAN](References/Determination_of_Optimal_Epsilon_Value_on_DBSCAN_Algorithm.pdf)
+The algorithm to find the optimum number of the epsilon is calculating the distance to the closest *n* numbers, filter it, and calculate the 3 nearest distance. This algorithm is based on the following paper. [References-DBSCAN](References/Determination_of_Optimal_Epsilon_Value_on_DBSCAN_Algorithm.pdf)
 
 
 ## Evaluation 
