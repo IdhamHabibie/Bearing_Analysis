@@ -31,9 +31,12 @@ By evaluating the DB-SCAN method, there are several parameters are used to test 
 Here are the description of the parameter calculation as follows : 
 
 Precision and Recall
+
 ![Image of Precision](images/Precision.png)
 
+
 F1 Score
+
 ![Image of F1_Score](images/F1_Score.png)
 
 The results obtained after testing the Evaluation Standard of Statistical Approach with the DBSCAN is as follows :  
