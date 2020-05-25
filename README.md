@@ -18,9 +18,9 @@ https://medium.com/@elutins/dbscan-what-is-it-when-to-use-it-how-to-use-it-8bd50
 The fascinating question is how to decide the optimum number of epsilon in this method. I found a related work to this method.
 The algorithm to find the optimum number of the epsilon is calculating the distance to the closest *n* numbers, filter it, and calculate the 3 nearest distance. This algorithm is based on the following paper. [References-DBSCAN](References/Determination_of_Optimal_Epsilon_Value_on_DBSCAN_Algorithm.pdf)
 
-
 ## Evaluation 
-To evaluate the results from the DB-SCAN, I am using the Statistical Approach to identify the anomaly detection ![References](References/Detecting_Anomalies_with_DBSCAN_and_Families.pdf). Based on paper as follows, the closest *mean* and *2 * standard dev*. Therefore, we able to trace the normal behaviour of the dataset with following formula : 
+To evaluate the results from the DB-SCAN, I am using the Statistical Approach to identify the anomaly detection.
+![References](References/Detecting_Anomalies_with_DBSCAN_and_Families.pdf). Based on paper as follows, the closest *mean* and *2 * standard dev*. Therefore, we able to trace the normal behaviour of the dataset with following formula : 
 
                                           Mean - 2 * Std <X < Mean + 2 * Std
 
