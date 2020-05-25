@@ -25,3 +25,13 @@ https://iopscience.iop.org/article/10.1088/1755-1315/31/1/012012/pdf
 To evaluate the results from the DB-SCAN, I am using the Statistical Approach to identify the anomaly detection. Based on paper as follows, the closest *mean* and *2 * standard dev*. Therefore, we able to trace the normal behaviour of the dataset with following formula : 
 
                                           Mean - 2 * Std <X < Mean + 2 * Std
+
+## Results
+By evaluating the DB-SCAN method, there are several parameters are used to test this, which are Accuracy, Precision, Recall, and F1 Score. Of course, Accuracy, which is based on the calculation of **True Negative** and **True Positive**, seems to be implementable to be used. However, by considering the fact of how many Normal behavior here is actually the one who got anomalies, and should be taken out in this measurement. This is where Precision and Recall are needed for this calculation.
+Here are the description of the parameter calculation as follows : 
+
+The results obtained after testing the Evaluation Standard of Statistical Approach with the DBSCAN is as follows :  
+- Accuracy : 98.9%
+- Precision : 99.4%
+- Recall : 85.2%
+- F1 Score : 91.1%
