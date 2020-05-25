@@ -16,7 +16,7 @@ References :
 https://medium.com/@elutins/dbscan-what-is-it-when-to-use-it-how-to-use-it-8bd506293818
 
 The fascinating question is how to decide the optimum number of epsilon in this method. I found a related work to this method.
-The algorithm to find the optimum number of the epsilon is calculating the distance to the closest *n* numbers, filter it, and calculate the 3 nearest distance. This algorithm is based on the following paper. [References-DBSCAN](References/Determination_of_Optimal_Epsilon_Value_on_DBSCAN_Algorithm.pdf)
+The algorithm to find the optimum number of the epsilon is calculating the distance to the closest *n* numbers, filter it, and calculate the **3 nearest** distance. This algorithm is based on the following paper. [References-DBSCAN](References/Determination_of_Optimal_Epsilon_Value_on_DBSCAN_Algorithm.pdf)
 
 ## Evaluation 
 To evaluate the results from the DB-SCAN, I am using the Statistical Approach to identify the anomaly detection.
@@ -25,15 +25,15 @@ To evaluate the results from the DB-SCAN, I am using the Statistical Approach to
                                           Mean - 2 * Std <X < Mean + 2 * Std
 
 ## Results
-By evaluating the DB-SCAN method, there are several parameters are used to test this, which are Accuracy, Precision, Recall, and F1 Score. Of course, Accuracy, which is based on the calculation of **True Negative** and **True Positive**, seems to be implementable to be used. However, by considering the fact of how many Normal behavior here is actually the one who got anomalies, and should be taken out in this measurement. This is where Precision and Recall are needed for this calculation.
+By evaluating the DB-SCAN method, there are several parameters are used to test this, which are Accuracy, Precision, Recall, and F1 Score. Of course, Accuracy, which is based on the calculation of **True Negative** and **True Positive**, seems to be implementable to be used. However, by considering the fact of how many Normal behavior here is actually the one who got anomalies, and should be taken out in this measurement. This is where *Precision* and *Recall* are needed for this calculation.
 Here are the description of the parameter calculation as follows : 
 
-Precision and Recall
+*Precision and Recall*
 
 ![Image of Precision](images/Precision.png)
 
 
-F1 Score
+*F1 Score*
 
 ![Image of F1_Score](images/F1_Score.png)
 
