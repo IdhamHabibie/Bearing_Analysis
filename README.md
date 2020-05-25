@@ -22,7 +22,7 @@ https://iopscience.iop.org/article/10.1088/1755-1315/31/1/012012/pdf
 
 
 ## Evaluation 
-To evaluate the results from the DB-SCAN, I am using the Statistical Approach to identify the anomaly detection ![References](References/Detecting Anomalies with DBSCAN and Families.pdf). Based on paper as follows, the closest *mean* and *2 * standard dev*. Therefore, we able to trace the normal behaviour of the dataset with following formula : 
+To evaluate the results from the DB-SCAN, I am using the Statistical Approach to identify the anomaly detection ![References](References/Detecting_Anomalies_with_DBSCAN_and_Families.pdf). Based on paper as follows, the closest *mean* and *2 * standard dev*. Therefore, we able to trace the normal behaviour of the dataset with following formula : 
 
                                           Mean - 2 * Std <X < Mean + 2 * Std
 
