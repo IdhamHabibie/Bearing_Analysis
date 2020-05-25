@@ -30,6 +30,12 @@ To evaluate the results from the DB-SCAN, I am using the Statistical Approach to
 By evaluating the DB-SCAN method, there are several parameters are used to test this, which are Accuracy, Precision, Recall, and F1 Score. Of course, Accuracy, which is based on the calculation of **True Negative** and **True Positive**, seems to be implementable to be used. However, by considering the fact of how many Normal behavior here is actually the one who got anomalies, and should be taken out in this measurement. This is where Precision and Recall are needed for this calculation.
 Here are the description of the parameter calculation as follows : 
 
+Precision and Recall
+![Image of Precision](images/Precision.png)
+
+F1 Score
+![Image of F1_Score](images/F1_Score.png)
+
 The results obtained after testing the Evaluation Standard of Statistical Approach with the DBSCAN is as follows :  
 - Accuracy : 98.9%
 - Precision : 99.4%
